@@ -1,0 +1,23 @@
+---
+title: "HW 16, 18 feedback"
+format: html
+editor: visual
+---
+
+## HW 16 and 18 feedback
+
+## Homework 16
+
+Think about how you separate your code comments (inside of a code chunk) from your scientific thinking comments (outside of a code chunk). For example, on line 29, you have:
+
+```{r}
+levels(cover$Site) #levels are inconsistent and must be fixed
+```
+
+The comment is not really about how you wrote the code, but about the problem in the data that needs to be fixed, so that comment should go outside of a code chunk. The result is that you will have more, smaller code chunks rather than a few larger code chunks. Work on this.
+
+Your group_by and summarise sections look good.
+
+## Homework 18 - plotting
+
+You did a better job of separating scientific comments from code comments in this one. Keep it up!
